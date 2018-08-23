@@ -1,0 +1,17 @@
+# OS Generated Files
+
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Excludes
+
+/scss/.sass-cache
+library/scss/.sass-cache
+library/js/min
+library/css/ie.css
+library/css/style.css
