@@ -1431,6 +1431,9 @@ span.project-location {
   height: 1px;
   background-color: #dee1e6; }
 
+.entry-content h2[style*="text-align:left"]::after {
+  margin: 15px 0; }
+
 /*
 		.single-title {}
 

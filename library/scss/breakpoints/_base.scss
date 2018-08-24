@@ -363,6 +363,10 @@ span.project-location {
   }
 }
 
+.entry-content h2[style*="text-align:left"]::after {
+	margin: 15px 0;
+}
+
 /*
 		.single-title {}
 
