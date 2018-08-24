@@ -9,7 +9,13 @@
    
     <div id="project-description" class="sticky-description">
       <header class="project-header">
-        <h1 class="project-title"><?php the_title(); ?></h1>
+        <?php if(get_field('subtitle')) : ?>
+          <h1 class="project-title has-subtitle"><?php the_title(); ?></h1>
+          <span class="subtitle"><?php the_field('subtitle'); ?>
+        <?php else : ?>
+          <h1 class="project-title no-subtitle"><?php the_title(); ?></h1>
+        <?php endif; ?>
+        
         <p class="project-details">
           <?php $date = get_field('project-year'); 
             $location = get_field('project-location');
