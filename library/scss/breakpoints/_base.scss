@@ -283,11 +283,16 @@ span.project-location {
 }
 
 
-.single-post .project-title,
-.single-post .project-details {
-  margin: 0;
-  text-align: center;
+.single-post {
+	.project-title,
+	.project-details,
+	.subtitle {
+		margin: 0;
+		display: block;
+		text-align: center;
+	}
 }
+
 
 .project-images {
   margin: 0;

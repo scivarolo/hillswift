@@ -1364,8 +1364,10 @@ span.project-location {
   text-transform: lowercase; }
 
 .single-post .project-title,
-.single-post .project-details {
+.single-post .project-details,
+.single-post .subtitle {
   margin: 0;
+  display: block;
   text-align: center; }
 
 .project-images {
