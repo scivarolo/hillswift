@@ -96,7 +96,7 @@ h2, .h2 {
 }
 
 h3, .h3 {
-	font-size: 1.125em;
+	font-size: 1.5em;
 }
 
 h4, .h4 {
@@ -399,7 +399,15 @@ span.project-location {
         text-transform: lowercase;
         letter-spacing: 1px;
         margin-top: 1.5em;
-      }
+			}
+			h3 {
+				@include smallcaps;
+				text-transform: lowercase;
+				letter-spacing: 1px;
+				margin-top: 1em;
+				margin-bottom: 10px;
+			}
+			
 			p {
 				margin: 0 0 1.5em;
 			}
@@ -414,8 +422,13 @@ span.project-location {
 			}
 
 			ul {
-
-				li {}
+				margin-top: 0;
+				li {
+					margin-bottom: 10px;
+					line-height: 1.3;
+					margin-left: 20px;
+					text-indent: -20px;
+				}
 
 			}
 
