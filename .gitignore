@@ -13,5 +13,5 @@ Thumbs.db
 /scss/.sass-cache
 library/scss/.sass-cache
 library/js/min
-library/css/ie.css
-library/css/style.css
+#library/css/ie.css
+#library/css/style.css
