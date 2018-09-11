@@ -102,7 +102,8 @@ jQuery(document).ready(function($) {
   
   jQuery('.owl-carousel').owlCarousel({
     loop: true,
-    items: 1
+    items: 1,
+    autoplay: true
   });
 
 }); /* end of as page load scripts */
