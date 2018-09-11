@@ -4,7 +4,7 @@
 
 					<p class="source-org copyright">&copy; <?php echo date('Y'); ?> <?php bloginfo( 'name' ); ?>.</p>
 					<?php if( is_single() ) : ?>
-						<div class="post-navigation"><p><span class="previous-post"><?php previous_post_link('< %', '', 'no'); ?></span> <span class="next-post"><?php next_post_link('% >', '', 'no'); ?></span><p></div>
+						<div class="post-navigation"><p><span class="previous-post"><?php previous_post_link('&laquo; %', '', 'no'); ?></span> <span class="next-post"><?php next_post_link('% &raquo;', '', 'no'); ?></span><p></div>
 					<?php endif; ?>
 					
 				</div>
