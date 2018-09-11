@@ -719,3 +719,8 @@ FOOTER STYLES
 	border-top: 1px solid $gray;
 	border-bottom: 1px solid $gray;
 }
+
+.inner-footer {
+	display: flex;
+	flex-direction: column-reverse;
+}
