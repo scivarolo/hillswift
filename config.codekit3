@@ -643,6 +643,19 @@
 		"oS": 0,
 		"uL": 1
 		},
+	"\/library\/scss\/breakpoints\/_base.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 5,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/library\/scss\/css\/_base.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
 	"\/library\/scss\/config.rb": {
 		"cB": 0,
 		"ft": 8192,
