@@ -1651,9 +1651,6 @@ FOOTER STYLES
   display: flex;
   flex-direction: column-reverse; }
 
-.post-navigation {
-  margin-left: auto; }
-
 .previous-post,
 .next-post {
   margin-left: 10px; }
