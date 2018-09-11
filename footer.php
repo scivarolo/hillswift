@@ -4,12 +4,10 @@
 
 					<p class="source-org copyright">&copy; <?php echo date('Y'); ?> <?php bloginfo( 'name' ); ?>.</p>
 					<?php if( is_single() ) : ?>
-						<?php $posts = query_posts($query_string);
-						if (have_posts()) : while(have_posts()) : the_post(); ?>
+				
 						<div class="post-navigation">
 							<p><span class="previous-post"><?php previous_post_link('&larr; %link', 'Previous Project'); ?></span> <span class="next-post"><?php next_post_link('%link &rarr;', 'Next Project'); ?></span><p>
 						</div>
-						<?php endwhile; endif; ?>
 					<?php endif; ?>
 					
 				</div>
