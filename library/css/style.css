@@ -1647,7 +1647,7 @@ FOOTER STYLES
   border-top: 1px solid #eaedf2;
   border-bottom: 1px solid #eaedf2; }
 
-.inner-footer {
+#inner-footer {
   display: flex;
   flex-direction: column-reverse; }
 
