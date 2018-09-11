@@ -53,3 +53,16 @@ POSTS & CONTENT STYLES
 /*********************
 FOOTER STYLES
 *********************/
+
+.inner-footer {
+	flex-direction: row;
+}
+
+.post-navigation {
+	margin-left: auto;
+}
+
+.previous-post,
+.next-post {
+	margin-left: 10px;
+}

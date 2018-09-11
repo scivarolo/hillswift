@@ -146,6 +146,16 @@ POSTS & CONTENT STYLES
 /*********************
 FOOTER STYLES
 *********************/
+.inner-footer {
+  flex-direction: row; }
+
+.post-navigation {
+  margin-left: auto; }
+
+.previous-post,
+.next-post {
+  margin-left: 10px; }
+
 /******************************************************************
 Site Name:
 Author:
@@ -184,6 +194,7 @@ PROJECT STYLES
 .project .project-thumbnail {
   float: left;
   width: 65%; }
+
 .project .project-description {
   float: right;
   width: 33%; }
@@ -192,6 +203,7 @@ PROJECT STYLES
   float: right;
   width: 37.5%;
   padding: 0 0 0 20px; }
+
 .single-post #project-gallery {
   width: 62%; }
 

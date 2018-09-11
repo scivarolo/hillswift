@@ -1647,6 +1647,16 @@ FOOTER STYLES
   border-top: 1px solid #eaedf2;
   border-bottom: 1px solid #eaedf2; }
 
+.inner-footer {
+  display: flex; }
+
+.post-navigation {
+  margin-left: auto; }
+
+.previous-post,
+.next-post {
+  margin-left: 10px; }
+
 /*********************
 LARGER MOBILE DEVICES
 This is for devices like the Galaxy Note or something that's
@@ -1698,7 +1708,14 @@ POSTS & CONTENT STYLES
   /* end .entry-content */
   /*********************
 FOOTER STYLES
-*********************/ }
+*********************/
+  .inner-footer {
+    flex-direction: row; }
+  .post-navigation {
+    margin-left: auto; }
+  .previous-post,
+  .next-post {
+    margin-left: 10px; } }
 
 /*********************
 TABLET & SMALLER LAPTOPS
