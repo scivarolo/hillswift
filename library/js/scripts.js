@@ -104,7 +104,8 @@ jQuery(document).ready(function($) {
     loop: true,
     items: 1,
     autoplay: true,
-    autoplaySpeed: 1500
+    autoplaySpeed: 1000,
+    autoplayTimeout: 5500
   });
 
 }); /* end of as page load scripts */
