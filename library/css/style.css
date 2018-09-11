@@ -1710,7 +1710,7 @@ POSTS & CONTENT STYLES
   /*********************
 FOOTER STYLES
 *********************/
-  .inner-footer {
+  #inner-footer {
     flex-direction: row; }
   .post-navigation {
     margin-left: auto; }
