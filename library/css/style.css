@@ -1648,8 +1648,19 @@ FOOTER STYLES
   border-bottom: 1px solid #eaedf2; }
 
 .inner-footer {
+<<<<<<< HEAD
   display: flex;
   flex-direction: column-reverse; }
+=======
+  display: flex; }
+
+.post-navigation {
+  margin-left: auto; }
+
+.previous-post,
+.next-post {
+  margin-left: 10px; }
+>>>>>>> 27c6270ca03d5e9f79c86cc1006b32a52cd22322
 
 /*********************
 LARGER MOBILE DEVICES
