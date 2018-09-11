@@ -103,7 +103,8 @@ jQuery(document).ready(function($) {
   jQuery('.owl-carousel').owlCarousel({
     loop: true,
     items: 1,
-    autoplay: true
+    autoplay: true,
+    autoplaySpeed: 1500
   });
 
 }); /* end of as page load scripts */
